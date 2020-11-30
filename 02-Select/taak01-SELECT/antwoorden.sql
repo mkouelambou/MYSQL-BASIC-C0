@@ -10,4 +10,3 @@ SELECT region FROM jaar2015
 SELECT region , score FROM jaar2015
 -- Opdracht 6
 SELECT score , rank FROM jaar2016
--- Opdracht 7
