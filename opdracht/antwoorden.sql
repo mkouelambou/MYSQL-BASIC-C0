@@ -5,7 +5,7 @@ SELECT COUNT(id) FROM videogamesales WHERE year = 1999
 SELECT COUNT(id) AS alle_videospellen_in_1999 FROM videogamesales WHERE year = 1999
 -- Opdracht 3
 SELECT COUNT(NA_Sales) FROM videogamesales WHERE genre="sports"
-SELECT COUNT(NA_Sales) AS alle_spellen_in_het_genre_sports FROM videogamesales WHERE genre="sports"
+SELECT SUM(NA_Sales) AS alle_spellen_in_het_genre_sports FROM videogamesales WHERE genre="sports"
 -- Opdracht 4
 SELECT name, platform FROM videogamesales WHERE publisher ="Nintendo" AND year=1990 AND 2005
 SELECT name, platform AS alle_spellen_van_nintendo FROM videogamesales WHERE publisher ="Nintendo" AND year=1990 AND 2005
