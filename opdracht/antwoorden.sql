@@ -1,5 +1,5 @@
 -- Opdracht 1 
-SELECT * FROM videogamesales
+SELECT * FROM videogamesales.
 -- Opdracht 2 
 SELECT COUNT(id) FROM videogamesales WHERE year = 1999
 SELECT COUNT(id) AS alle_videospellen_in_1999 FROM videogamesales WHERE year = 1999
